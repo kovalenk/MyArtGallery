@@ -1,0 +1,109 @@
+body{
+    overflow-x:hidden;
+}
+.header{
+    width: 100%;
+    background-image: url(../img/Head.png);
+    height: 763px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    width: 50px;
+    background-color: #2aabd2;
+    height: 50px;
+}
+.menuIcon{
+    height: 10px;
+    border-top: 2px black;
+}
+.Logo{
+    width: 115px;
+    height: 115px;
+}
+.Phone{
+    font-size: 20px;
+    padding: 45px 0px;
+    font-family: -webkit-pictograph;
+}
+.Phone .PhoneIc{
+    padding-right: 7px;
+    color: #d6b4b4;
+}
+.Phonenum{
+    color: #cad6c1;
+    font-size: 25px;
+
+}
+.verticalrow{
+    height: 57px;
+    width: 100%;
+    border-top: 1px solid #a28e8e;
+    background-color: rgba(2, 2, 2, 0.45);
+    position: absolute;
+    bottom: 0px;
+
+}
+.horisontalrow{
+    display: grid;
+    position: absolute;
+    height: 100%;
+    width: 57px;
+    top: 0px;
+    right: 0px;
+    border-left: 1px solid #a28e8e;
+    background-color: rgba(2, 2, 2, 0.45);
+}
+.something{
+    position: relative;
+    padding: 0px;
+    height: 770px;
+    background-color: #8242da;
+
+}
+.descriptionUp{
+    position: absolute;
+    width: 100%;
+    top: 385px;
+    height: 385px;
+    background-color: #da251c;
+}
+.descriptioDown{
+    position: absolute;
+    width: 100%;
+    top:0px;
+    height: 384px;
+    background-color: #3bafda;
+}
+.ArtKinds{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+
+.HorisontalLinks{
+    margin: auto;
+}
+.verticalLinks{
+
+}
+.Roundborder{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #a7a6a524;
+    border-radius: 45px;
+    background-color: #a7a6a580;
+    margin: 19px 1px;
+}
+.Roundborder i{
+    font-size: large;
+    margin-top: 7px;
+    font-weight: 900;
+    margin-left: 7px;
+    position: absolute;
+}
+.Roundborder a{
+    color: #333;
+}
